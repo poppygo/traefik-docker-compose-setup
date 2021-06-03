@@ -27,3 +27,14 @@ DASHBOARD_HOSTNAME=traefik.example.com
 ACME_EMAIL=postmaster@example.com
 ```
 
+Create a docker network 'web'
+
+```
+docker network create web
+```
+
+Start the service
+
+```
+docker-compose up
+```
